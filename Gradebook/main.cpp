@@ -7,9 +7,16 @@
 //
 
 #include <iostream>
+#include "Gradebook.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+
+int main()
+{
+    GradeBook gBook("C++ programming with Timothy Hosey");
+    gBook.displayMessage();
+    gBook.inputGrades();
+    gBook.displayGradeReport();
+    
+    
+    
 }
